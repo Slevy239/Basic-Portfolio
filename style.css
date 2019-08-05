@@ -1,0 +1,90 @@
+body {
+    width: 960px;
+    height: 960px;
+}
+
+.content {
+    position: absolute;
+    height: 164px;
+    width: 817px;
+    left: 150px;
+    top: 150px;
+}
+ 
+
+h1 {
+    background-color: teal;
+    color: white;
+    width: 140px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+}
+
+h2 {
+    color: teal;
+    position: absolute;
+    left: 16px;
+    top: -70px;
+}
+
+a {
+    float: right;
+    /* position: absolute; */
+    padding: 10px;
+    text-align: center;
+    color: gray;
+    /* top: -50px; */
+    
+}
+
+.paragraph {
+    float: right;
+    min-width: 50%;
+    padding: 10px;
+    /* position: fixed; */
+    /* padding: 25px */
+
+}
+.p1 {
+    width: 700px;
+    float: right;
+    height: 150px;
+    position: absolute;
+    left: 140px;
+    top: -20px;
+}
+
+.p2, .p3 {
+    float: left;
+    padding: 10px;
+    position: relative;
+    top: 75px;
+}
+
+p {
+    float: left;
+    
+}
+
+.img-about {
+    float: left;
+    /* padding: -50px;     */
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 15px;
+}
+
+footer {
+    text-align: center;
+    bottom: 10px;
+    position: absolute;
+}
+
+
+
+
+
+
+
