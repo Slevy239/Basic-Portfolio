@@ -1,7 +1,11 @@
 body {
     width: 960px;
     height: 960px;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .content {
     position: absolute;
@@ -10,6 +14,7 @@ body {
     left: 150px;
     top: 150px;
 }
+
 
 .topnav {
     background-color: #333;
@@ -22,6 +27,10 @@ body {
     vertical-align: top;
 }
 
+.topnav li {
+    display: inline;
+}
+
 .topnav a {
     float: right;
     color: #f2f2f2;
@@ -31,14 +40,9 @@ body {
     font-size: 17px;
 }
 
-.topnav a:hover {
-    background-color: #dddddd;
-    color: black;
 }
 
 .topnav a.active {
-    background-color: #4caf50;
-    color: white;
 }
  
 
