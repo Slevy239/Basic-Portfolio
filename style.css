@@ -52,7 +52,8 @@ h1 {
     left: 150px;
     z-index: 1;
     padding: 25px;
-    top: -28px;
+    top: -24px;
+    height: 43px;
 }
 
 h2 {
