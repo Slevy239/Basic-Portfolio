@@ -19,8 +19,8 @@ body {
 .topnav {
     background-color: white;
     overflow: hidden;
-    position: relative;
-    top: -132px;
+    position: absolute;
+    top: 0px;
     width: 100%;
     text-align: center;
     display: inline-block;
@@ -52,7 +52,7 @@ h1 {
     left: 150px;
     z-index: 1;
     padding: 25px;
-    top: -21px;
+    top: -28px;
 }
 
 h2 {
@@ -136,8 +136,20 @@ footer {
 
 #name, #email {
     width: 85%;
-    /* padding: 10px; */
+    padding: 10px 10px;
     margin: 10px;
     float: right;
+
+}
+
+#contact {
+
+    padding: 10px 10px;
+}
+
+#portfolio {
+    float: left;
+    width: 85%;
+
 }
 
