@@ -122,3 +122,14 @@ footer {
     background: gray;
     height: 42px;
 }
+
+#message {
+    width: 85%;
+    height: 150px;
+}
+
+#name, #email {
+    width: 85%;
+    padding: 10px;
+}
+
