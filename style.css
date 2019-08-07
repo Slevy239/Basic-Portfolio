@@ -1,51 +1,46 @@
 body {
-    width: 960px;
+    /* width: 960px;
     height: 960px;
     margin: 0;
-    padding: 0;
+    padding: 0; */
+    background-image: url(../Basic-Portfolio/assets/Images/papyrus.png)
 }
 
-
-
 .content {
-    position: absolute;
-    height: 164px;
-    width: 817px;
-    left: 150px;
-    top: 150px;
+   margin: 0 auto;
+    border: 3px solid black;
+    background: white;
+    align-content: center;
+    height: 450px;
 }
 
 
 .topnav {
-    background-color: #333;
+    background-color: white;
     overflow: hidden;
     position: relative;
-    top: -66px;
+    top: -80px;
     width: 100%;
     text-align: center;
     display: inline-block;
     vertical-align: top;
+    border-bottom: solid darkgray;
 }
 
 .topnav li {
     display: inline;
+    /* border-left: solid gray */
 }
 
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: darkgray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-
-}
-
-.topnav a.active {
-}
  
-
 h1 {
     background-color: teal;
     color: white;
@@ -58,9 +53,11 @@ h1 {
 
 h2 {
     color: teal;
-    position: absolute;
+    /* position: absolute; */
     left: 16px;
-    top: -70px;
+    /* top: -70px; */
+    border-bottom: 5px solid;
+    width: 965px;
 }
 
 a {
@@ -69,16 +66,17 @@ a {
     padding: 10px;
     text-align: center;
     color: gray;
+    border-left: solid gray;
     /* top: -50px; */
     
 }
 
-.paragraph {
+/* .paragraph {
     float: right;
     min-width: 50%;
     padding: 10px;
     /* position: fixed; */
-    /* padding: 25px */
+    /* padding: 25px */ 
 
 }
 .p1 {
@@ -86,20 +84,30 @@ a {
     float: right;
     height: 150px;
     position: absolute;
-    left: 140px;
-    top: -20px;
+    left: 225px;
+    top: 50px;
 }
 
-.p2, .p3 {
+/* .p2, .p3 {
     float: left;
     padding: 10px;
     position: relative;
-    top: 75px;
+    top: 215px; */
 }
 
-p {
+.paragraph {
+    float: right;
+    width: 80%
+}
+
+.image {
     float: left;
-    
+    width: 20%;
+}
+
+#content_wrap {
+    width: 960px;
+    margin: 0 auto;
 }
 
 .img-about {
@@ -107,19 +115,16 @@ p {
     /* padding: -50px;     */
     height: 100px;
     width: 100px;
-    position: absolute;
-    left: 15px;
+    left: 97px;
+    top: 70px;
 }
 
 footer {
     text-align: center;
     bottom: 10px;
     position: absolute;
+    width: 100%;
+    border: solid;
+    background: gray;
+    height: 42px;
 }
-
-
-
-
-
-
-
