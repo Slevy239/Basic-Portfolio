@@ -11,7 +11,8 @@ body {
     border: 3px solid black;
     background: white;
     align-content: center;
-    height: 450px;
+    height: 400px;
+    width: 85%;
 }
 
 
@@ -42,7 +43,7 @@ body {
 }
  
 h1 {
-    background-color: teal;
+    background-color: #4aaaa5;
     color: white;
     width: 140px;
     text-align: center;
@@ -52,12 +53,12 @@ h1 {
 }
 
 h2 {
-    color: teal;
+    color: #4aaaa5;
     /* position: absolute; */
-    left: 16px;
+    /* left: 16px; */
     /* top: -70px; */
     border-bottom: 5px solid;
-    width: 965px;
+    width: 100%;
 }
 
 a {
@@ -71,12 +72,6 @@ a {
     
 }
 
-/* .paragraph {
-    float: right;
-    min-width: 50%;
-    padding: 10px;
-    /* position: fixed; */
-    /* padding: 25px */ 
 
 }
 .p1 {
@@ -88,16 +83,15 @@ a {
     top: 50px;
 }
 
-/* .p2, .p3 {
-    float: left;
-    padding: 10px;
-    position: relative;
-    top: 215px; */
-}
 
 .paragraph {
     float: right;
     width: 80%
+}
+
+.other-paragraph {
+    float: left;
+    width: 100%
 }
 
 .image {
@@ -121,10 +115,10 @@ a {
 
 footer {
     text-align: center;
-    bottom: 10px;
+    bottom: -8px;
     position: absolute;
     width: 100%;
-    border: solid;
+    border-top: solid #4aaaa5;
     background: gray;
     height: 42px;
 }
