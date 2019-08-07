@@ -20,12 +20,13 @@ body {
     background-color: white;
     overflow: hidden;
     position: relative;
-    top: -80px;
+    top: -132px;
     width: 100%;
     text-align: center;
     display: inline-block;
     vertical-align: top;
     border-bottom: solid darkgray;
+    height: 90px;
 }
 
 .topnav li {
@@ -50,6 +51,8 @@ h1 {
     position: relative;
     left: 150px;
     z-index: 1;
+    padding: 25px;
+    top: -21px;
 }
 
 h2 {
@@ -127,11 +130,14 @@ footer {
     width: 85%;
     height: 150px;
     margin: 10px;
+    float: right
+    ;
 }
 
 #name, #email {
     width: 85%;
     /* padding: 10px; */
     margin: 10px;
+    float: right;
 }
 
