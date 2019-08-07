@@ -126,10 +126,12 @@ footer {
 #message {
     width: 85%;
     height: 150px;
+    margin: 10px;
 }
 
 #name, #email {
     width: 85%;
-    padding: 10px;
+    /* padding: 10px; */
+    margin: 10px;
 }
 
