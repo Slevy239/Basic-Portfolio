@@ -1,8 +1,4 @@
 body {
-    /* width: 960px;
-    height: 960px;
-    margin: 0;
-    padding: 0; */
     background-image: url(../Images/papyrus.png);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -65,24 +61,23 @@ h1 {
 
 h2 {
     color: #4aaaa5;
-    /* position: absolute; */
-    /* left: 16px; */
-    /* top: -70px; */
     border-bottom: 5px solid;
     width: 100%;
 }
 
 a {
     float: right;
-    /* position: absolute; */
     padding: 10px;
     text-align: center;
     color: gray;
-    border-left: solid gray;
-    /* top: -50px; */
+    border-left: 1px solid gray;
     
 }
 
+.galpics {
+    border: none;
+    margin: 10px;
+}
 
 }
 .p1 {
@@ -117,7 +112,6 @@ a {
 
 .img-about {
     float: left;
-    /* padding: -50px;     */
     height: 100px;
     width: 100px;
     left: 97px;
@@ -134,13 +128,21 @@ footer {
     height: 42px;
     color: white;
 }
+.portfolio_gallery {
+    margin: 0 auto;
+    border: 0px solid black;
+    background: white;
+    align-content: center;
+    height: 500px;
+    width: 35%;
+}
 
 .gallery {
-    margin: 5px;
-    border: 1px solid;
+    margin: -5px;
     float: left;
     width: 180px;
-
+    height: 160px;
+    z-index: -1;
 }
 
 .gallery img {
@@ -151,7 +153,6 @@ footer {
 #portfolio {
     float: left;
     width: 85%;
-
 }
 
 input[type=text], select, textarea {
@@ -177,10 +178,18 @@ input[type=text], select, textarea {
 
 .pl {
     padding: 10px;
-    /* float: none; */
     width: 10px;
     height: 10px;
     background-color:teal;
     display: inline-block;
     list-style-image: url(../Images/city-q-c-640-480-1.jpg)
+}
+
+.desc {
+    height: 32px;
+    background-color: #4aaaa5;
+    width: 100%;
+    margin-top: 110px;
+    z-index: 1;
+    text-align: center;
 }
