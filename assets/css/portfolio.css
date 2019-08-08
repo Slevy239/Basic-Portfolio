@@ -132,28 +132,21 @@ footer {
     border-top: solid #4aaaa5;
     background: gray;
     height: 42px;
-}
-/* 
-#message {
-    width: 85%;
-    height: 150px;
-    margin: 10px;
-    float: right
-    ;
+    color: white;
 }
 
-#name, #email {
-    width: 85%;
-    padding: 10px 10px;
-    margin: 10px;
-    float: right;
+.gallery {
+    margin: 5px;
+    border: 1px solid;
+    float: left;
+    width: 180px;
 
 }
 
-#contact {
-
-    padding: 10px 10px;
-} */
+.gallery img {
+    width: 100%;
+    height: auto;
+}
 
 #portfolio {
     float: left;
@@ -190,16 +183,4 @@ input[type=text], select, textarea {
     background-color:teal;
     display: inline-block;
     list-style-image: url(../Images/city-q-c-640-480-1.jpg)
-}
-
-.gallery {
-    margin: 5px;
-    /* border: 1px solid; */
-    float: left;
-    width: 180px;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
 }
