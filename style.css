@@ -3,7 +3,8 @@ body {
     height: 960px;
     margin: 0;
     padding: 0; */
-    background-image: url(../Basic-Portfolio/assets/Images/papyrus.png)
+    background-image: url(../Basic-Portfolio/assets/Images/papyrus.png);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
