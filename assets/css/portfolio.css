@@ -1,4 +1,4 @@
-body {
+/* body {
     background-image: url(../Images/papyrus.png);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,15 +9,13 @@ header {
 
 .content {
    margin: 0 auto;
-    border: 0px solid black;
     background: white;
-    align-content: center;
     height: 400px;
     width: 85%;
 }
+ */
 
-
-.topnav {
+/* .topnav {
     background-color: white;
     overflow: hidden;
     position: absolute;
@@ -28,13 +26,13 @@ header {
     vertical-align: top;
     border-bottom: solid darkgray;
     height: 90px;
-}
+} */
 
-.topnav li {
+/* .topnav li {
     display: inline;
-}
+} */
 
-.topnav a {
+/* .topnav a {
     float: right;
     color: darkgray;
     text-align: center;
@@ -43,8 +41,8 @@ header {
     font-size: 17px;
     position: relative;
     right: 110px;
-}
- 
+} */
+/*  
 h1 {
     background-color: #4aaaa5;
     color: white;
@@ -56,30 +54,30 @@ h1 {
     padding: 25px;
     top: -32px;
     height: 43px;
-}
+} */
 
-h2 {
+/* h2 {
     color: #4aaaa5;
-    border-bottom:grey 5px solid;
+    border-bottom:grey 2px solid;
     width: 100%;
-}
+} */
 
-a {
+/* a {
     float: right;
     padding: 10px;
     text-align: center;
     color: gray;
     border-left: 1px solid gray;
     
-}
+} */
 
-.galpics {
+/* .galpics {
     border: none;
     margin-bottom: -25px;
     position: relative;
-}
+} */
 
-}
+/* 
 .p1 {
     width: 700px;
     float: right;
@@ -87,38 +85,37 @@ a {
     position: absolute;
     left: 225px;
     top: 50px;
-}
+} */
 
-
+/* 
 .paragraph {
     float: right;
     width: 80%
-}
-
+} */
+/* 
 .other-paragraph {
     float: left;
     width: 100%
-}
-
+} */
+/* 
 .image {
     float: left;
     width: 20%;
-}
-
+} */
+/* 
 #content_wrap {
     width: 960px;
     margin: 0 auto;
-}
+} */
 
-.img-about {
-    float: left;
-    height: 100px;
-    width: 100px;
+/* .img-about {
+    height: 150px;
+    width: 150px;
     left: 97px;
     top: 70px;
-}
+} */
 
-footer {
+/* footer {
     text-align: center;
     bottom: -8px;
     position: absolute;
@@ -127,36 +124,34 @@ footer {
     background: gray;
     height: 42px;
     color: white;
-}
-.portfolio_gallery {
+} */
+/* .portfolio_gallery {
     margin: 0 auto;
-    border: 0px solid black;
     background: white;
-    align-content: center;
     height: 500px;
     width: 35%;
-}
+} */
 
-.gallery {
+/* .gallery {
     margin: -5px;
     margin-left: 30px;
     float: left;
     width: 180px;
     height: 160px;
     z-index: -1;
-}
+} */
 
-.gallery img {
+/* .gallery img {
     width: 100%;
     height: auto;
-}
+} */
 
-#portfolio {
+/* #portfolio {
     float: left;
     width: 85%;
-}
+} */
 
-#portfolio_list {
+/* #portfolio_list {
     text-align: center;
     padding: 0;
     margin: 10px 0px;
@@ -165,17 +160,17 @@ footer {
     text-decoration: none;
     float: right;
     display: inline-block;
-}
+} */
 
-.pl {
+/* .pl {
     padding: 10px;
     width: 10px;
     height: 10px;
     background-color:teal;
     display: inline-block;
-}
+} */
 
-.desc {
+/* .desc {
     height: 32px;
     background-color: #4aaaa5;
     width: 161px;
@@ -185,4 +180,4 @@ footer {
     color: white;
     position: absolute;
     margin-left: 9px;
-}
+} */
