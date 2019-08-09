@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
+
 
     <title>Contact</title>
 </head>
@@ -25,24 +26,30 @@
     </header>
     <section class="content">
         <h2>Contact</h2>
+        <form>
+            <div id="contact">
+                <div>
+                    <div id="name">Name</div>
+                    <input type="text" id="input" name="name" placeholder="John Smith">
+                </div>
 
-        <div id="contact">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Name">
+            </div>
+            <div id="email">
+                <div>
+                    <label>Email</label>
+                    <input type="text" id="input" name="email" placeholder="example@gmail.com">
+                </div>
+            </div>
 
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Email">
-        </div>
-
-        <div class="message-input">
-            <label for="message">Message</label>
-            <input type="text" id="message" name="message">
-        </div>
-
-        <!-- <div class="button"> -->
-        <button>Submit</button>
-        </div>
-
+            <div>
+                <div id="message">Message</div>
+                    <input type="text" id="input2" name="message">
+            </div>
+            <br>
+            <div class="button">
+                <button>Submit</button>
+            </div>
+        </form>
 
 
     </section>

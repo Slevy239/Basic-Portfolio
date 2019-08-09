@@ -32,7 +32,6 @@ header {
 
 .topnav li {
     display: inline;
-    /* border-left: solid gray */
 }
 
 .topnav a {
@@ -155,16 +154,6 @@ footer {
 #portfolio {
     float: left;
     width: 85%;
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid;
-    box-sizing: border-box; 
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
 }
 
 #portfolio_list {
