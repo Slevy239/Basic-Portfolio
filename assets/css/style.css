@@ -14,6 +14,13 @@ header {
     width: 50%;
 }
 
+.contentmain {
+    margin: 0 auto;
+    background: white;
+    height: 450px;
+    width: 65%;
+}
+
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -144,7 +151,7 @@ footer {
     margin: 0 auto;
     background: white;
     height: 500px;
-    width: 30%
+    width: 35%
 }
 
 .gallery {
