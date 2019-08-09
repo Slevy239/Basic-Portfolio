@@ -164,7 +164,6 @@ footer {
     float: left;
     width: 180px;
     height: 160px;
-    z-index: -1;
 }
 
 .gallery img {
@@ -207,7 +206,7 @@ input[type=text] {
     background-color: #4aaaa5;
     width: 161px;
     margin-top: 110px;
-    margin-left: 9px;
+    margin-left: 10px;
     text-align: center;
     color: white;
     position: absolute;
