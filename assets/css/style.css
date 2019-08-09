@@ -63,16 +63,8 @@ h1 {
     height: 43px;
 }
 
-#h1portfolio {
-    background-color: #4aaaa5;
-    color: white;
-    width: 160px;
-    text-align: center;
-    position: relative;
-    left: 110px;
-    padding: 25px;
-    top: -32px;
-    height: 43px;
+#name {
+    margin-top: -8px;
 }
 
 h2 {
