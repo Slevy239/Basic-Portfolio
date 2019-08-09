@@ -56,7 +56,7 @@ h1 {
 
 h2 {
     color: #4aaaa5;
-    border-bottom: 5px solid;
+    border-bottom: gray 5px solid;
     width: 100%;
 }
 
@@ -114,7 +114,7 @@ footer {
     bottom: -8px;
     position: absolute;
     width: 100%;
-    border-top: solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     background: gray;
     height: 42px;
     color: white;
