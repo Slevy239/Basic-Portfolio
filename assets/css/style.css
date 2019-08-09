@@ -14,7 +14,6 @@ header {
     width: 50%;
 }
 
-
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -69,7 +68,6 @@ a {
     text-align: center;
     color: gray;
     border-left: 1px solid gray;
-    
 }
 
 .galpics {
@@ -121,7 +119,6 @@ footer {
     height: 42px;
     color: white;
 }
-
 
 #input {
     width: 95%;
@@ -207,8 +204,11 @@ input[type=text] {
 
 button {
     background-color: #4aaaa5;
-    border: 1xp solid;
     color: white;
     width: 15%;
+    border: none;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
